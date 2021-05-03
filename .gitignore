@@ -4,4 +4,6 @@ uploads/
 package-lock.json
 yarn.lock
 yarn-error.log
+server/server.key
+server/server.cert
 
