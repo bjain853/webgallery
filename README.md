@@ -3,7 +3,7 @@
 This project is a simple image repository built from ground up using html,css and javascript.This project tries to remain as close to low level stuff as possible hence has avoided use of any frontend javascript framework. It uses node js to run an express based server which serves the static files for the frontend and handles the requests. The app has been secured from most basic cybersecurity attacks by using input-sanitation, and ensuring secure uploads of the files. The server supports both HTTPS and HTTP depending upon the environment it is run in. An HTTPS certificate and private key will have to be generated first using the openssl to run it in production environment. The files will have to be placed in the server folder.
 
 ```
-openssl req -nodes -new -x509 -keyout server.key -out server.cert -days 365
+$ openssl req -nodes -new -x509 -keyout server.key -out server.cert -days 365
 ```
 
 After which npm or yarn can be used to start the server in dev mode or production mode using
