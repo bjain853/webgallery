@@ -16,15 +16,16 @@ $ npm run start
 respectively.The app first presents a registration page where you can either Sign up or Sign In. After authorization you are redirected to the home page of the app where you can view other user's pictures, comment on them and upload your pictures for others to see as well. 
 
 
-You will need clamav package installed on the host machine to ensure secure file uploads. On Arch linux command is 
+You will need clamav package installed on the host machine to ensure secure file uploads. 
+On Arch linux command is 
 ```
 $ sudo pacman -S clamav
 ```
-and on Ubuntu it is installed by 
+On Ubuntu it is installed by 
 ```
 $ sudo apt-get install clamav clamav-daemon
 ```
-and on MacOS it can be installed by
+On MacOS it can be installed by
 ```
 $ brew install clamav
 ```
